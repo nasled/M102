@@ -1,0 +1,12 @@
+# mongo --shell pcat Homework2__hw2.1_m102_529fe537e2d42347509fb412.js
+MongoDB shell version v3.4.1
+connecting to: mongodb://127.0.0.1:27017/pcat
+MongoDB server version: 3.4.1
+type "help" for help
+
+> b = db.products_bak; db.products.find().forEach( function(o){ b.insert(o) } )
+> b.count()
+11
+> homework.a()
+3.05
+>
